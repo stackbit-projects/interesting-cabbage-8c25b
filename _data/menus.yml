@@ -1,21 +1,23 @@
 main:
-  - name: "Services"
-    url: "/services/"
+  - name: Services
+    url: /services/
     weight: 2
-  - name: "Team"
-    url: "/team/"
+  - name: Team
+    url: /team/
     weight: 3
-  - name: "About"
-    url: "/about/"
+  - name: About
+    url: /about/
     weight: 4
-  - name: "Contact"
-    url: "/contact/"
+  - name: Contact
+    url: /contact/
     weight: 5
-
+  - name: lorem-ipsum
+    url: lorem-ipsum
+    weight: 0
 footer:
-  - name: "Home"
-    url: "/"
+  - name: Home
+    url: /
     weight: 1
-  - name: "Contact"
-    url: "/contact/"
+  - name: Contact
+    url: /contact/
     weight: 2
